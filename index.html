@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Plum &amp; Thread — Tiruppur Apparel Manufacturing</title>
+    <meta
+      name="description"
+      content="Custom knitwear, cut-and-sew apparel manufacturing, and instant GST quotation calculator from Plum & Thread in Tiruppur, India."
+    />
+    <meta property="og:title" content="Plum & Thread — Tiruppur Apparel Manufacturing" />
+    <meta
+      property="og:description"
+      content="Export-grade knitwear, outerwear, and private-label garment production in Tiruppur, India with transparent GST-compliant bulk quotations."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('plum-thread-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.style.colorScheme = 'dark';
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAFAFB] dark:bg-slate-950 text-[#0F172A] dark:text-slate-100 antialiased selection:bg-[#581C4C] selection:text-white dark:selection:bg-[#8E307B]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Plum & Thread — Tiruppur Apparel Manufacturing",
+  "description": "Custom knitwear, cut-and-sew apparel manufacturing, and instant GST quotation calculator from Plum & Thread in Tiruppur, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
