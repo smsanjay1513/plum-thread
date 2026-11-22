@@ -8,7 +8,6 @@ import { Navbar } from './components/Navbar';
 import { ProductCatalog } from './components/ProductCatalog';
 import { QuotationCalculator } from './components/QuotationCalculator';
 import { WhyChooseUs } from './components/WhyChooseUs';
-import { ChatAssistant } from './components/ChatAssistant';
 import { calculateQuotation, QuoteSelection, sanitizeQuantity } from './utils/quotation';
 
 const SAMPLE_SELECTIONS: QuoteSelection[] = [
@@ -166,8 +165,6 @@ export default function App() {
       </main>
 
       <Footer theme={theme} onThemeChange={setTheme} />
-
-      <ChatAssistant summary={summary} />
     </div>
   );
 }
